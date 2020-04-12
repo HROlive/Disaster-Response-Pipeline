@@ -2,13 +2,13 @@
 
 ![Banner](screenshots/banner.jpg)
 
-
 ## Table of Contents
 1. [Description](#description)
 2. [Dependencies](#dependencies)
 3. [Installing](#installation)
 4. [Executing Program](#execution)
-5. [Additional Material](#material)
+4. [Exploration Files](#exfiles)
+5. [Web App Pipeline Files](#appfiles)
 6. [Screenshots](#screenshots)
 
 <a name="descripton"></a>
@@ -25,7 +25,7 @@ This project is divided in the following key sections:
 3. A web app that shows the classification results and visuzlizations for any user given input, in real time.
 
 <a name="dependencies"></a>
-### Dependencies
+## Dependencies
 * Python 3.5+
 * Machine Learning Libraries: NumPy, Pandas, Sciki-Learn
 * Natural Language Process Libraries: NLTK
@@ -34,13 +34,13 @@ This project is divided in the following key sections:
 * Web App and Data Visualization: Flask, Plotly
 
 <a name="installation"></a>
-### Installing
+## Installing
 To clone the git repository:
 ```
 git clone https://github.com/HROlive/disaster-response-pipeline.git
 ```
 <a name="execution"></a>
-### Executing Program:
+## Executing Program:
 1. You can run the following commands in the project's directory to set up the database, train model and save the model.
 
     - To run ETL pipeline to clean data and store the processed data in the database
@@ -53,8 +53,8 @@ git clone https://github.com/HROlive/disaster-response-pipeline.git
 
 3. Go to http://0.0.0.0:3001/
 
-<a name="material"></a>
-### Exploration Files
+<a name="exfiles"></a>
+## Exploration Files
 
 In the **data** and **models** folder you can find two jupyter notebook that will help you understand how the model works step by step:
 1. **ETL Preparation Notebook**: learn everything about the implemented ETL pipeline
@@ -62,15 +62,15 @@ In the **data** and **models** folder you can find two jupyter notebook that wil
 
 You can use **ML Pipeline Preparation Notebook** to re-train the model or tune it through a dedicated Grid Search section.
 
-<a name="importantfiles"></a>
-### Web App Pipeline Files
+<a name="appfiles"></a>
+## Web App Pipeline Files
 **app/templates/***: templates/html files for web app
 
 **data/process_data.py**: Extract Train Load (ETL) pipeline used for data cleaning, feature extraction, and storing data in a SQLite database
 
 **models/train_classifier.py**: A machine learning pipeline that loads data, trains a model, and saves the trained model as a .pkl file for later use
 
-**run.py**: This file can be used to launch the Flask web app used to classify disaster messages
+**app/run.py**: This file can be used to launch the Flask web app used to classify disaster messages
 
 <a name="screenshots"></a>
 ## Screenshots
