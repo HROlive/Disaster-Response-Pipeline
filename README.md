@@ -7,9 +7,9 @@
 2. [Dependencies](#dependencies)
 3. [Installing](#installation)
 4. [Executing Program](#execution)
-4. [Exploration Files](#exfiles)
-5. [Web App Pipeline Files](#appfiles)
-6. [Screenshots](#screenshots)
+5. [Exploration Files](#exfiles)
+6. [Web App Pipeline Files](#appfiles)
+7. [Screenshots](#screenshots)
 
 <a name="descripton"></a>
 ## Description
