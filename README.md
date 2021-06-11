@@ -40,7 +40,7 @@ To clone the git repository:
 git clone https://github.com/HROlive/disaster-response-pipeline.git
 ```
 <a name="execution"></a>
-## Executing Program:
+## Executing Program
 1. You can run the following commands in the project's directory to set up the database, train model and save the model.
 
     - To run ETL pipeline to clean data and store the processed data in the database
